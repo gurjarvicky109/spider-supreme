@@ -7,7 +7,7 @@ const duration = require("moment-duration-format");
 const config = require("./config.json");
 const client = new Discord.Client();
 
-// console log.
+// console log.NTE1NTIzMTMyMTcwMzA1NTM4.DtmW8A.MTk_kBZFjazcd6duLNslyf1MCM0
 
 client.on("ready", () =>{
     console.log(`logging In \nClient: ${client.user.tag} \nUsers: ${client.users.size} \nChannels: ${client.channels.size} \nServers: ${client.guilds.size}`);
